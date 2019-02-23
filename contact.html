@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<title> Contact - Company Ltd.</title>
+	</head>
+	
+	<body>
+		<img src = "https://i.imgur.com/EPZyiek.png" alt="LOGO Image">
+	
+		<form method = "post" action = "mailto:fake-email@company.com">
+			
+			<p> Contact form starts here.</p>
+			
+			Subject (50 character maximum): <input name="subject" maxlength = "50" required><br>
+			
+			<textarea id = "contact-body" name="contact-body" placeholder="Write message here."  required></textarea><br>
+			
+			Email*: <input type="email" pattern = ”[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$” placeholder="example@email.com" name="user_email"> <br>
+			Phone: <input type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="123-123-1234" name="user_number"><br>
+			
+			
+			Receive correspondance via: 
+			
+			<input type="radio" name="response_type" value="Phone"> Email
+			<input type="radio" name="response_type" value="Email"> Phone
+			<input type="radio" name="response_type" value="Both"> Both <br>
+			<br>
+			
+			<input type="checkbox" name="extras" value="hotel"> Add a hotel
+			<input type="checkbox" name="extras" value="car"> Add a car
+			<input type="checkbox" name="extras" value="travelguide"> Add a travel guide<br>
+			<br>
+			
+			Response needed for: <input type="date" name="response_date">
+			<br>
+		
+			<hr>
+		
+			<input type="submit" value="Search" >
+			<input type="reset" value="Clear">
+			
+		
+		</form>
+	</body>
+</html>

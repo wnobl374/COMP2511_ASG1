@@ -1,0 +1,9 @@
+nav {
+  background-color: #728B96;
+  border: solid 3pt;
+  padding: 3pt;
+}
+a:hover {
+	color: yellow;
+}
+	
