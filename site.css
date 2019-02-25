@@ -32,8 +32,20 @@ a:hover {
 	border: solid 1pt;
 }
 
+footer {
+	border-top: solid 1pt;
+	border-top-color: #d9d9d9;
+	color: #d9d9d9;
+}
+
+/*home rules*/
+#initial-p::first-letter {
+	font-size: 42px;
+font-family: fantasy, serif;
+}
+
 /*contact rules*/
-form{
+form {
 	background-color: #d9d9d9;
 	width: 658px;
 	border: solid 1pt;
@@ -45,6 +57,20 @@ form{
 }
 #subject {
 	width: 200px;
+}
+/* table rules*/
+table {
+	width: 689px;
+}
+#row-1{
+	font-weight: bold;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+table th, td {
+	border: solid 1pt;
+	padding-right: 50px;
 }
 
 
