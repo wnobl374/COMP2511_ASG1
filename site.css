@@ -44,13 +44,13 @@ article {
 footer {
 	border-top: solid 1pt;
 	border-top-color: #d9d9d9;
-	color: #d9d9d9;
+	color: #b3b3b3;
 }
 
 /*home rules*/
 #initial-p::first-letter {
 	font-size: 42px;
-font-family: fantasy, serif;
+	font-family: fantasy, serif;
 }
 
 /*contact rules*/
@@ -67,7 +67,7 @@ form {
 #subject {
 	width: 200px;
 }
-/* table rules*/
+/* products rules*/
 table {
 	width: 689px;
 }
@@ -80,6 +80,14 @@ tr:nth-child(even) {
 table th, td {
 	border: solid 1pt;
 	padding-right: 50px;
+}
+[alt~="Website"]{
+	height: 600px;
+}
+figcaption {
+	font-weight: italic;
+	font-size: 8pt;
+	font-family: Trebuchet;
 }
 
 
