@@ -1,9 +1,35 @@
+html {
+	background-color: #f2f2f2;
+	font-family: sans-serif;
+	border: dotted 5pt;
+}
 nav {
   background-color: #728B96;
   border: solid 3pt;
   padding: 3pt;
+  display: inline-block;
+  font-family: Verdana, fantasy;
 }
 a:hover {
 	color: yellow;
 }
-	
+#current{
+	color:white;
+}
+#logo {
+}
+form{
+	background-color:red;
+	width: 600px;
+	border: solid 2pt;
+}
+#contact-body {
+	width: 500px;
+	height: 150px;
+}
+#subject {
+	width: 200px;
+}
+
+
+
