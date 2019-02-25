@@ -85,6 +85,10 @@ table th, td {
 [alt~="Website"]{
 	height: 600px;
 }
+[alt~="Watch"]{
+	width: 100px;
+	float: right;
+}
 figcaption {
 	font-weight: italic;
 	font-size: 8pt;
