@@ -90,7 +90,7 @@ table th, td {
 	float: right;
 }
 figcaption {
-	font-weight: italic;
+	font-style: italic;
 	font-size: 8pt;
 	font-family: Trebuchet;
 }
