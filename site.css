@@ -3,20 +3,24 @@ html {
 	background-color: #f2f2f2;
 	font-family: sans-serif;
 }
-nav {
+nav ul{
 	background-color: #728B96;
 	padding: 10px;
-	font-family: Verdana, fantasy;
+	font-family: Verdana, serif;
+	list-style-type: none;
+	text-align: center;
 	display: inline-block;
 	
 }
-nav a{
-	text-align: center;
+nav li{
 	display: inline-block;
-	color: black;
 	font-size: 12pt;
 	padding-left: 50px;
 	padding-right: 50px;
+	
+}
+nav a{
+	color:black;
 }
 #current{
 	color:white;
