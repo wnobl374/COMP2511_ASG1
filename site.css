@@ -62,11 +62,11 @@ form {
 table {
 	width: 689px;
 }
-#row-1{
+.row-1{
 	font-weight: bold;
 }
 tr:nth-child(even) {
-	background-color: #f2f2f2;
+	background-color: #d9d9d9;
 }
 table th, td {
 	border: solid 1pt;
