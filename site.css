@@ -2,6 +2,7 @@
 html {
 	background-color: #f2f2f2;
 	font-family: sans-serif;
+	margin: 10px;
 }
 nav ul{
 	background-color: #728B96;
@@ -30,6 +31,14 @@ a:hover {
 }
 #logo {
 	border: solid 1pt;
+}
+
+article {
+	box-sizing: border-box;
+	width: 689px;
+	border: solid 1px;
+	background-color: #d9d9d9;
+	
 }
 
 footer {
@@ -66,7 +75,7 @@ table {
 	font-weight: bold;
 }
 tr:nth-child(even) {
-	background-color: #d9d9d9;
+	background-color: #f2f2f2;
 }
 table th, td {
 	border: solid 1pt;
