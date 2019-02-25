@@ -1,27 +1,39 @@
+/*general rules*/
 html {
 	background-color: #f2f2f2;
 	font-family: sans-serif;
-	border: dotted 5pt;
 }
 nav {
-  background-color: #728B96;
-  border: solid 3pt;
-  padding: 3pt;
-  display: inline-block;
-  font-family: Verdana, fantasy;
+	background-color: #728B96;
+	padding: 10px;
+	font-family: Verdana, fantasy;
+	display: inline-block;
+	
 }
-a:hover {
-	color: yellow;
+nav a{
+	text-align: center;
+	display: inline-block;
+	color: black;
+	font-size: 12pt;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 #current{
 	color:white;
 }
-#logo {
+a:hover {
+	color: yellow;
 }
+#logo {
+	border: solid 1pt;
+}
+
+/*contact rules*/
 form{
-	background-color:red;
-	width: 600px;
-	border: solid 2pt;
+	background-color: #d9d9d9;
+	width: 658px;
+	border: solid 1pt;
+	padding: 10pt;
 }
 #contact-body {
 	width: 500px;
