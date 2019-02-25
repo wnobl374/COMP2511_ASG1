@@ -3,33 +3,46 @@
 	<head>
 		<meta charset="utf-8">
 		<title> Contact - Company Ltd.</title>
+		<link rel = "stylesheet" href = "site.css">
 	</head>
 	
 	<body>
-		<img src = "https://i.imgur.com/EPZyiek.png" alt="LOGO Image">
+		<nav>
+			<a href="home.html">Home</a> 
+			<a href="products.html">Products</a> 
+			<a href="about.html">About Us</a> 
+			<a id = "current" href="contact.html">Contact</a>
+		</nav>
+	
+		<img id = "logo" src = "https://i.imgur.com/EPZyiek.png" alt="LOGO Image">
 	
 		<form method = "post" action = "mailto:fake-email@company.com">
 			
-			<p> Contact form starts here.</p>
+			<h2> Contact us here! </h2>
 			
-			Subject (50 character maximum): <input name="subject" maxlength = "50" required><br>
+			* <input id = "subject" name="subject" maxlength = "100" placeholder = "Subject (100 characters max)" required><br>
 			
-			<textarea id = "contact-body" name="contact-body" placeholder="Write message here."  required></textarea><br>
+			<br>
+			
+			* <textarea id = "contact-body" name="contact-body" placeholder="Write message here." required></textarea><br>
+			
+			<hr>
 			
 			Email*: <input type="email" pattern = ”[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$” placeholder="example@email.com" name="user_email"> <br>
 			Phone: <input type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="123-123-1234" name="user_number"><br>
 			
 			
-			Receive correspondance via: 
+			Receive correspondance via*: 
 			
 			<input type="radio" name="response_type" value="Phone"> Email
 			<input type="radio" name="response_type" value="Email"> Phone
 			<input type="radio" name="response_type" value="Both"> Both <br>
 			<br>
 			
-			<input type="checkbox" name="extras" value="hotel"> Add a hotel
-			<input type="checkbox" name="extras" value="car"> Add a car
-			<input type="checkbox" name="extras" value="travelguide"> Add a travel guide<br>
+			
+			
+			<input type="checkbox" name="checkbox" value="burger"> Add burger
+			<input type="checkbox" name="checkbox" value="cheese"> add cheese
 			<br>
 			
 			Response needed for: <input type="date" name="response_date">
@@ -37,7 +50,7 @@
 		
 			<hr>
 		
-			<input type="submit" value="Search" >
+			<input type="submit" value="Send" >
 			<input type="reset" value="Clear">
 			
 		
