@@ -1,0 +1,6 @@
+/*home rules*/
+#initial-p::first-letter {
+	font-size: 42px;
+	font-family: fantasy, serif;
+}
+

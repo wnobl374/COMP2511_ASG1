@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<title> Contact - Company Ltd.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel = "stylesheet" href = "styles/site.css">
+        <link rel = "stylesheet" href = "styles/contact.css">
+		<meta name = "keywords" content = "company,fake,website,creator,HTML,CSS,tags,contact">
+	</head>
+	
+	<body>
+		<header> 
+			<div class = "company">
+            <a href="home.html"> <img id = "banner" src = "images/banner.jpg" alt=""> </a> <br>
+			<a href="home.html"> <img id = "logo" src = "images/logo.png" alt="LOGO Image"> </a> <br>
+			</div>
+		
+			<nav>
+				<ul>
+				<li><a href="home.html">Home</a></li> 
+				<li><a href="products.html">Products</a></li>
+				<li><a href="about.html">About Us</a></li> 
+				<li><a id = "current" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+			<!-- I wasn't sure if the form needed to post to an actual address, I have the form posting to a very not real one at the moment-->
+			
+			<form method = "post" action = "mailto:fake-email@company.com">
+			
+			<fieldset> <legend class = "bold"> Contact us here! </legend>
+			
+                Subject (required): <input id = "subject" name="subject" maxlength = "100" placeholder = "Subject (100 characters max)" required><br>
+			
+			<br>
+			
+			Message (required): <textarea id = "contact-body" name="contact-body" placeholder="Write message here." required></textarea><br>
+			
+			<hr>
+			
+			Email (required) : <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="example@email.com" name="user_email" required> <br>
+			Phone: <input type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="123-123-1234" name="user_number"><br>
+                
+            </fieldset>
+			
+			<fieldset>
+                <legend class = "bold">Tell us how to contact you! </legend>
+                
+            Receive correspondance via*:
+			
+			<input type="radio" name="response_type" value="Phone"> Email
+			<input type="radio" name="response_type" value="Email" tabindex = "0"> Phone
+			<input type="radio" name="response_type" value="Both" tabindex = "0"> Both <br>
+			<br>
+			
+			
+			
+			<label><input type="checkbox" name="checkbox" value="email"> Add email signature</label>
+			<label><input type="checkbox" name="checkbox" value="phone"> Add phone signature</label><br>
+			<br>
+			
+			Response needed for: <input type="date" name="response_date">
+			<br>
+		
+			<hr>
+		
+			<input type="submit" value="Send" >
+			<input type="reset" value="Clear"> <br>
+                
+            </fieldset>
+			
+		
+		</form>
+		
+		<footer>
+			<br>
+			&reg;2019
+		</footer>
+	</body>
+</html>

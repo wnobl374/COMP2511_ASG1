@@ -1,0 +1,16 @@
+/*contact rules*/
+form {
+	background-color: #d9d9d9;
+	width: 98%;
+	border: solid 1pt;
+	padding: 10pt;
+}
+#contact-body {
+	width: 60%;
+	height: 150px;
+}
+#subject {
+	width: 30%;
+}
+
+
